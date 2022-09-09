@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 int main(){
-    int xn,yn,xm,ym,distance;
+    float xn,yn,xm,ym,distance;
     printf ("Entrer la coordonnee x de n:");
     scanf("%d",&xn);
 
