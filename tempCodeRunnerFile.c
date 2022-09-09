@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 int main(){
-int nombre,octal,hexadecimal ;
+    char nom1[4],nom2[4]

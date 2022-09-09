@@ -3,6 +3,8 @@ int main() {
     char caractere;
     printf ("entrer un caractere :");
     scanf("%c",&caractere);
+    caractere=tolower(caractere);
+
 
     switch(caractere){
         case 'a':
