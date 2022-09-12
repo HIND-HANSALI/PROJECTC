@@ -3,9 +3,9 @@
 int main(){
     char nom1[4],nom2[4],i,j,n=0;
     printf("entrerla 1ere chaine de caracteres contenant que A B C D :");
-    scanf("%s",&nom1);
+    gets(nom1);
     printf("entrerla 2eme chaine de caracteres contenant que A B C D :");
-    scanf("%s",&nom2);
+    gets(nom2);
 
 
     for(i=0;i<4;i++){ 
