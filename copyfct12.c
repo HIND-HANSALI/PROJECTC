@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-
-void copy(char *a,char *b){
+//a source b destination
+void copy(char *a,char *b){  //p --> q  
   char *q,*p;
   p=a;
   q=b;
