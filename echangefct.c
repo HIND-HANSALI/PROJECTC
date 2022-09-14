@@ -2,9 +2,11 @@
 
 
 int echange(int a,int b){
-    
+    int c;
+    c=a;
     a=b;
-    return a;
+    b=c;
+    printf("l'echange de a mtn  est %d ",a);
 
 }
 int main(){
@@ -13,6 +15,6 @@ int main(){
     scanf("%d",&a);
     printf("entrer la valeur de b :");
     scanf("%d",&b);
-    printf("la valeur de a apres l'echange est %d ",echange(a,b));
+    echange(a,b);
 
 }
